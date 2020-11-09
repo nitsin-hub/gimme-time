@@ -2,7 +2,7 @@ service: gimme-time
 
 provider:
   name: aws
-  runtime: nodejs10
+  runtime: nodejs12.1.0
   environment:
     STAGE: ${opt:stage}
 
